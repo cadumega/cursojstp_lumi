@@ -15,4 +15,4 @@ texto.innerHTML += `<p>Arredondando para baixo: ${Math.floor(numero)}.</p>`;
 texto.innerHTML += `<p>Arredondando para cima: ${Math.ceil(numero)}.</p>`;
 texto.innerHTML += `<p>Com duas casas decimais: ${numero.toFixed(2)}</p>.` ;
 
-// por estar usando o operador = , acaba q zera e salva last valor, só que quero adicionar os texto, logo usar +=, por isso só aparecia o ultimo texto.innerHTML
+// por estar usando o operador = , acaba q zera e salva last valor, só que quero adicionar os textos, logo usar +=, por isso só aparecia o ultimo texto.innerHTML

@@ -52,7 +52,7 @@ let passo =2;
 passo += 2;
 passo += 2;
 passo += 2;
-console.log(passo);  //6
+console.log(passo);  //8
 
 let passada =2;
 passada *= 5;
