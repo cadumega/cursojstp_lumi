@@ -19,7 +19,7 @@ Definindo o tipo de objeto escrevendo uma função construtora;
 Criando uma instância do objeto usando a palavra new; */
 
 function Carro(tipo, modelo,cor) {
-this.tipo = tipo;
+	this.tipo = tipo;
 	this.modelo = modelo;
 	this.cor = cor;  
 }
