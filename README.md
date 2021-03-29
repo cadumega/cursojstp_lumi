@@ -16,7 +16,7 @@
 
 • Em uma array, adicione um valor aos elementos já criados de alguma variável.
 
-• Mostre uma conta com ordem de precedência.
+• Mostre uma conta resolvida, com ordem de precedência.
 
 • Some +1 em uma variável de contagem.
 
