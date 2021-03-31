@@ -18,3 +18,9 @@ const pessoa = {
 
 const { nome, ...resto} =pessoa;
 console.log (nome,resto);   // nome Luiz, e o restante do objeto
+
+
+
+const numeros = [1,2,3,4,5,6,7,8,9,10]
+const [/*1*/,/*2*/, tres,/*4*/,/*5*/, seis,/*7*/,/*8*/, nove] = numeros;
+console.log(tres, seis, nove);
