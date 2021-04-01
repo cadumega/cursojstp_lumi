@@ -100,7 +100,7 @@ function getDiaSemanaTexto(diaSemana) {
 
  */
 
- //Segunda Maneira!!
+//Segunda Maneira!!
 
 /*  
  const h1 = document.querySelector('.container h1');
@@ -114,9 +114,9 @@ function getDiaSemanaTexto(diaSemana) {
  h1.innerHTML = data.toLocaleString('pt-BR', opcoes);   
  */
 
- // Terceira Maneira!! com array
+// Terceira Maneira!! com array
 
- /*
+/*
  const h1 = document.querySelector('.container h1');
  const data = new Date();
 

@@ -1,40 +1,40 @@
 // Não tão utilizado mas precisa saber essa estrutura.
 // Se a variável é igual a, se é igual a ouro valor, pode usar switch case
 function getDiaSemanaTexto(diaSemana) {
- let diaSemanaTexto;
+  let diaSemanaTexto;
 
-  switch(diaSemana) {
+  switch (diaSemana) {
     case 0:
-      diaSemanaTexto = 'Domingo';               //switch precisa de break para parar de executar a checagem
-      return diaSemanaTexto;            // encontrou a palavra return, sai da função, mesmo papel que o break
+      diaSemanaTexto = 'Domingo'; //switch precisa de break para parar de executar a checagem
+      return diaSemanaTexto; // encontrou a palavra return, sai da função, mesmo papel que o break
     case 1:
-      diaSemanaTexto = 'Segunda';               
-      return diaSemanaTexto; 
+      diaSemanaTexto = 'Segunda';
+      return diaSemanaTexto;
     case 2:
-      diaSemanaTexto = 'Terça';               
-      return diaSemanaTexto; 
+      diaSemanaTexto = 'Terça';
+      return diaSemanaTexto;
     case 3:
-      diaSemanaTexto = 'Quarta';               
+      diaSemanaTexto = 'Quarta';
       return diaSemanaTexto;
     case 4:
-      diaSemanaTexto = 'Quinta';               
+      diaSemanaTexto = 'Quinta';
       return diaSemanaTexto;
     case 5:
-      diaSemanaTexto = 'Sexta';               
+      diaSemanaTexto = 'Sexta';
       return diaSemanaTexto;
     case 6:
-      diaSemanaTexto = 'Sábado';               
+      diaSemanaTexto = 'Sábado';
       return diaSemanaTexto;
     default:
-      diaSemanaTexto = ''; 
-      return diaSemanaTexto;                 
+      diaSemanaTexto = '';
+      return diaSemanaTexto;
   }
 }
-const data = new Date ();
-const diaSemana = data.getDay();          // pegar a data de hoje, 0 é dom , usuário não vai querer ver retorno 3
-const diaSemanaTexto = getDiaSemanaTexto (diaSemana);
+const data = new Date();
+const diaSemana = data.getDay(); // pegar a data de hoje, 0 é dom , usuário não vai querer ver retorno 3
+const diaSemanaTexto = getDiaSemanaTexto(diaSemana);
 
-console.log (diaSemana, diaSemanaTexto);
+console.log(diaSemana, diaSemanaTexto);
 
 /*
 switch(diaSemana) {

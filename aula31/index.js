@@ -18,9 +18,9 @@ if (verdadeira) {                       //escopo de bloco aninhado
   }
  */
 
-  function falaOi () {
-    var sobrenome ='Miranda';
-    // console.log(sobrenome);       //var não irá aceitar o console fora, not defined
-  }
-  console.log(sobrenome);  
-  falaOi();
+function falaOi() {
+  var sobrenome = 'Miranda';
+  // console.log(sobrenome);       //var não irá aceitar o console fora, not defined
+}
+console.log(sobrenome);
+falaOi();

@@ -37,8 +37,40 @@ for ( let i = 0; i <= 10; i++) {
 
 //For clássico, esta mais verboso, existem outras maneiras mais simples, opões mais modernas
 //                0         1         2
-const frutas = ['maça', 'laranja' , 'uva']
+const frutas = ['maça', 'laranja', 'uva'];
 
-for ( let i = 0; i < frutas.length; i++) {
+for (let i = 0; i < frutas.length; i++) {
   console.log(`Índice ${i}`, frutas[i]);
 }
+
+// Sistema
+
+/* function imparPar() {
+  const formulario = document.querySelector('.formulario');
+  const resultadoImpaPar = document.querySelector('.resultadoImpaPar');
+
+  function recebeButton(e) {
+      e.preventDefault();
+
+      const numero = document.querySelector('.inputNumero');
+      const valor = numero.value;
+      const verificar = Number(valor);
+
+      if (!verificar) {
+          resultadoImpaPar.innerHTML = `Digite um número válido`;
+          return;
+      } else { isValid() }
+
+      function isValid() {
+          if (verificar % 2 === 0) {
+              resultadoImpaPar.innerHTML = `Seu número é par`;
+          } else {
+              resultadoImpaPar.innerHTML = `Seu número é impar`;
+          }
+      }
+  }
+
+  formulario.addEventListener('submit', recebeButton)
+}
+
+imparPar(); */
