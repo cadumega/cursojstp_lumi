@@ -4,7 +4,7 @@
 
  # Resumo e exercício dos principais pontos estudados nessa 1° parte de javascript, realize os seguintes passos:
 
- ## 1° Parte
+ ## 1° Parte , até aula 30.
 
 
 • Exibir um trecho de código no console.log.
