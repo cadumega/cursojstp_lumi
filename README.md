@@ -2,8 +2,9 @@
  Curso Javascript e TypeScript - front-end e back-end (Full Stack) - Node, Express, noSQL, React, hooks, Redux, Design Patterns (Básico ao Avançado). Luiz Miranda.
 
 
- Resumo e exercício dos principais pontos estudados nessa 1° parte de javascript, realize os seguintes passos:
+ # Resumo e exercício dos principais pontos estudados nessa 1° parte de javascript, realize os seguintes passos:
 
+ ## 1° Parte
 
 
 • Exibir um trecho de código no console.log.
