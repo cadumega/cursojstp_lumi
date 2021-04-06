@@ -85,4 +85,5 @@ function f3Callback() {            //termino f3, chama consolelog..
   console.log('Olá mundo');
 }
 
+//Parece com as fç que comparei o brinquedo de bonecas russas, uma dentro da outra.
 //SOLUÇÃO MAIS SIMPLES!!! e Maneira mais limpa é com promisse menos verboso. [VERIFICAR + A FRENTE]
