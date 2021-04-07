@@ -1,0 +1,97 @@
+/* criar uma var global de cor, crio com root, var precisa começar com dois traços */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display-swap');
+:root {
+  --primary-color: royalblue;
+  --primary-color-darker: rgb(9, 106, 134);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans' , 'sans-serif' ;    /* font family com fallback caso não funcione de sans serif*/
+  font-size: 1.3em;
+  font-weight: 1.5em;
+} 
+
+.container {
+  max-width: 640px;
+  margin: 20px auto;   /* up down 20px , laterais auto */
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+h1{
+  text-align: center;
+}
+
+
+form input, form label, form button {   /* Qualquer formulário da página */
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+
+}
+
+form input {
+  font-size: 24px;
+  height: 40px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);       /* borda selecionada fica na cor primay do site */
+}
+
+
+form button {
+  color: #fff;
+  padding: 20px;
+  width: 200px;
+  height: 70px;
+  border: none;
+  background: var(--primary-color);
+  font-size:24px;
+  font-weight: 700;
+  cursor: pointer;
+  display:block;            /* centralizar botão */
+  margin: 30px auto;             /* centralizar botão */
+}
+
+form button :hover {
+  background: var(--primary-color-darker);
+}
+
+/* form button:active {
+  background: red;
+} */
+
+p {
+  display: block;
+  align-content: center;
+}
+
+h1 {
+  color: purple;
+  font-size: 36px;
+}
+
+.btn-tarefa {
+  font-size: 18px;
+}
+
+input{
+  width: 395px;
+  font-size: 18px;
+}
+
+li {
+  font-size: 24px;
+  color: blueviolet;
+
+}
