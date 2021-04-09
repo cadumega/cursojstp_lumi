@@ -121,7 +121,7 @@ func2();
 
 
 
-
+// Se vier com return, a fç para e não executa o q tem mais abaixo.
 
 /* Imagine generators como uma corrente, a partir do momento que você passou de um elo, não tem como voltar a trás, você só vai para a frente. A partir do momento que você chegou em determinado elo e foi fazer outra coisa, quando você voltar, vai estar exatamente no mesmo elo, nem pra frente, nem para trás dele.
 
