@@ -41,10 +41,14 @@ esperaAi('Conexão com o BD...', rand(1,3))
     })
     .catch(e => {
         console.log('ERRO:', e);
-    });
+    }); 
 
     console.log('Isso aqui será exibido antes de qualquer Promise.')
 
     // Promises são em paralelo, executa o código e joga as promises para executar depois, código assincrono.
 
     // Irá chegar para você o erro que ocorreu.
+
+    // Mae pede ao filho para comprar leite no mercado.É  como se fosse uma promise.
+
+    // Promise.all   .race    .resolve    .reject
